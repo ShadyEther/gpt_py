@@ -3,7 +3,7 @@ import openai
 from discord.ext import commands
 
 # Set up your OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = "YOUR OPEN API KEY"
 
 # Set up your Discord bot credentials
 bot = commands.Bot(command_prefix='!')
@@ -23,4 +23,4 @@ async def talk(ctx, *, message):
     await chat(ctx, message=message)
 
 # Start your Discord bot
-bot.run('MTA5NzA1MTcyMzg5NTQyMjk4Ng.GoyeHS.t1yrZlzFgqGy2hscTZKmF22DD62U6Pv-x_HMYI')
+bot.run('YOUR DISCORD BOT API KEY')
