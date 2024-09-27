@@ -125,5 +125,8 @@ async def gemmy(ctx, *, query: str):
 
 
 
+
 bot.run(DISCORD_TOKEN)
+
+
 
